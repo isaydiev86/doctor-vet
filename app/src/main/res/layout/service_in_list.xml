@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/service_symbol"
+        android:padding="5dp"
+        android:background="#019985"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Наименование услуги"
+            android:textColor="#fff"
+            android:textSize="15sp"
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Цена:"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/service_two"
+        android:padding="5dp"
+        android:layout_below="@id/service_symbol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Название втоорго уровня"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:id="@+id/service_two_title"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5000"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:id="@+id/price_two_title"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/service_three"
+        android:padding="5dp"
+        android:layout_below="@id/service_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="- Название третего уровня"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:paddingLeft="30dp"
+            android:id="@+id/service_three_title"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5000"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:id="@+id/price_three_title"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
